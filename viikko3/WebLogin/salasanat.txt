@@ -1,4 +1,0 @@
-pekka;akkep
-jukka;akkuj
-user;hello
-test;password
