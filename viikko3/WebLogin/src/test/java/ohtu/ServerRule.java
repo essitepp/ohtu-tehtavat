@@ -6,7 +6,7 @@ import org.junit.rules.ExternalResource;
 import spark.Spark;
 
 public class ServerRule extends ExternalResource {
-    
+
     private final int port;
 
     public ServerRule(int port) {
@@ -20,11 +20,13 @@ public class ServerRule extends ExternalResource {
         dao.add(new User("jukka", "akkuj"));
         Main.setDao(dao);
         Main.main(null);
+        System.setProperty("webdriver.chrome.driver", "/home/essitepp/chromedriver");
+
     }
 
     @Override
     protected void after() {
         Spark.stop();
     }
-    
+
 }
