@@ -1,5 +1,6 @@
 /viikko2/Verkkokauppa1/.nb-gradle/
 /viikko2/Verkkokauppa1/build/
+/viikko2/Verkkokauppa1/.gradle/
 /viikko3/nhlreader/.nb-gradle/
 /viikko3/HelloCucumber/build/
 /viikko3/LoginCucumber/.gradle/
@@ -7,3 +8,9 @@
 /viikko3/WebLogin/.gradle/
 /viikko3/WebLogin/salasanat.txt
 /viikko3/.gradle/
+/viikko4/MockitoDemo/build/
+/viikko4/MaksukorttiMockito/.gradle/
+/viikko4/MaksukorttiMockito/build/
+/viikko4/Verkkokauppa1/.gradle/
+/viikko4/Verkkokauppa1/build/
+/viikko4/IntJoukkoSovellus/build/
